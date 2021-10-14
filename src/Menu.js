@@ -11,12 +11,12 @@ export default function Menu() {
   return(
     <>
      <Switch>
-       <Route exact path="/" component={MyGallery}/>
-       <Route exact path="/about" component={About}/>
-       <Route exact path="/contact" component={Contact}/>
-       <Route exact path="/privacy_policy" component={PrivacyPolicy}/>
-       <Route exact path="/terms&conditions" component={TermsConditions}/>
-       <Route path="/" component={ErrorPage}/>
+       <Route exact path="/my-gallery/" component={MyGallery}/>
+       <Route exact path="/my-gallery/about" component={About}/>
+       <Route exact path="/my-gallery/contact" component={Contact}/>
+       <Route exact path="/my-gallery/privacy_policy" component={PrivacyPolicy}/>
+       <Route exact path="/my-gallery/terms&conditions" component={TermsConditions}/>
+       <Route path="/my-gallery/" component={ErrorPage}/>
      </Switch>
     </>
     );
